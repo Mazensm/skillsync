@@ -6,7 +6,6 @@ function normalize(s: string) {
 }
 
 export default function handler(req: any, res: any) {
-  // CORS (basic)
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') return res.status(200).end();
