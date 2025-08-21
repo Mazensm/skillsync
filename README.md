@@ -24,3 +24,6 @@ Built with React + Vite + TypeScript (web) and Node.js + Express + TypeScript (A
 - **Dev:** pnpm/npm, ts-node, tsconfig strict
 
 ## 📂 Monorepo Layout
+
+---
+_This branch adds the polished frontend UI and docs._
